@@ -30,3 +30,5 @@ RFID Attendance System: A full-stack Next.js and Supabase web app for high-volum
 - Scan Processing Endpoint: `/app/api/scan/route.ts`
 - Live Dashboard Feed: `/app/(dashboard)/dashboard/live/page.tsx`
 - Supabase Server Helpers: `/lib/supabase/`
+
+Do not use Single barrel file for importing types across the codebase
